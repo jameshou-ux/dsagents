@@ -1,0 +1,2009 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "HbYkE",
+      "x": -1157,
+      "y": -1836,
+      "name": "Audit Report: Webapp",
+      "width": 1100,
+      "fill": "#09090b",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "5KiGH",
+          "name": "Header",
+          "width": "fill_container",
+          "height": 60,
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#27272a"
+          },
+          "padding": [
+            0,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "gWqWr",
+              "fill": "#a1a1aa",
+              "content": "● ds-audit-agent / v1",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "HV7en",
+              "fill": "#71717a",
+              "content": "Summary    Dimensions    Issues    Roadmap    AI Readiness",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "AptuA",
+              "name": "riskContainer",
+              "fill": "#3f0000",
+              "cornerRadius": 99,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#ef4444"
+              },
+              "padding": [
+                2,
+                8
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7KiWk",
+                  "name": "riskTxt",
+                  "fill": "#f87171",
+                  "content": "Risk: High",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FBR8Y",
+          "name": "content",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            0,
+            48
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ARMbt",
+              "name": "hero",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "#27272a"
+              },
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                48,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "2rzdX",
+                  "name": "meta",
+                  "fill": "#71717a",
+                  "content": "Audited February 25, 2026 · ds-audit-agent v1",
+                  "fontFamily": "Geist Mono",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "SluDk",
+                  "name": "titleContainer",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "C8SIz",
+                      "name": "title1",
+                      "fill": "#fafafa",
+                      "content": "Design System",
+                      "fontFamily": "Inter",
+                      "fontSize": 42,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BKjeY",
+                      "name": "title2",
+                      "fill": "#8b5cf6",
+                      "content": "Webapp Design System",
+                      "fontFamily": "Inter",
+                      "fontSize": 42,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "hEnX5",
+                  "name": "desc",
+                  "fill": "#a1a1aa",
+                  "content": "Figma file: 458:29015 · WCAG AA · ai_token_schema_simple_v1",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "hVdf2",
+                  "name": "chips",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "0GJ8L",
+                      "fill": "#18181b",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#3f3f46"
+                      },
+                      "gap": 6,
+                      "padding": [
+                        5,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "teoOC",
+                          "fill": "#a1a1aa",
+                          "content": "WCAG AA",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "1UOLb",
+                      "fill": "#18181b",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#3f3f46"
+                      },
+                      "gap": 6,
+                      "padding": [
+                        5,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zs5ih",
+                          "fill": "#a1a1aa",
+                          "content": "ai_token_schema_simple_v1",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fn8hu",
+                      "fill": "#18181b",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#3f3f46"
+                      },
+                      "gap": 6,
+                      "padding": [
+                        5,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lsMGR",
+                          "fill": "#a1a1aa",
+                          "content": "light + dark mode",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "afkla",
+                      "fill": "#18181b",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#3f3f46"
+                      },
+                      "gap": 6,
+                      "padding": [
+                        5,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HUtKh",
+                          "fill": "#a1a1aa",
+                          "content": "dark mode required",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "p2QcN",
+              "name": "execContainer",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "#27272a"
+              },
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                0,
+                0,
+                48,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Zkl7J",
+                  "name": "execTitleFrame",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "YF040",
+                      "fill": "#fafafa",
+                      "content": "Executive Summary",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "4sjKg",
+                      "fill": "#a1a1aa",
+                      "content": "Overall scoring and key signals across the design system.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pSIw1",
+                  "name": "scoreGrid",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KmBTm",
+                      "name": "card1",
+                      "width": "fill_container",
+                      "fill": "#18181b",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#8b5cf6"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "uGUqd",
+                          "fill": "#a1a1aa",
+                          "content": "OVERALL SCORE",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zea5T",
+                          "fill": "#f59e0b",
+                          "content": "68 /100",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 42,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "9AKu3",
+                      "name": "card2",
+                      "width": "fill_container",
+                      "fill": "#18181b",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#27272a"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 24,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wt2hp",
+                          "fill": "#a1a1aa",
+                          "content": "AI READINESS",
+                          "fontFamily": "Inter",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "SSGxP",
+                          "fill": "#ef4444",
+                          "content": "18 /100",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 42,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gVW91",
+                  "name": "summaryText",
+                  "width": 720,
+                  "fill": "#18181b",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272a"
+                  },
+                  "layout": "vertical",
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "A6Bnp",
+                      "fill": "#fafafa",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "The Webapp Design System exhibits a fundamentally immature token architecture for its scale. While a library of visual tokens exists, the naming convention is inconsistent, non-semantic, and violates the flat category.role.scale schema. Dark mode variables are entirely absent despite being required. Component layer naming mixes Chinese and English without a unified taxonomy, making AI prompt generation highly unstable.",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "llEHf",
+              "name": "dimContainer",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "#27272a"
+              },
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                0,
+                0,
+                48,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "GGp2M",
+                  "name": "dimTitleFrame",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eSraP",
+                      "fill": "#fafafa",
+                      "content": "Dimension Scores",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jJmB0",
+                      "fill": "#a1a1aa",
+                      "content": "Six weighted dimensions contribute to the overall score.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IgX6R",
+                  "name": "row1",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "h7SaC",
+                      "name": "dim1",
+                      "width": "fill_container",
+                      "fill": "#18181b",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#27272a"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "r4PXs",
+                          "fill": "#fafafa",
+                          "content": "Token Integrity · 65 / 100",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QB9DV",
+                          "width": "fill_container",
+                          "height": 6,
+                          "fill": "#27272a",
+                          "cornerRadius": 99,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "SDxOM",
+                              "width": "fit_content(150)",
+                              "height": 6,
+                              "fill": "#f59e0b",
+                              "cornerRadius": 99
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "O3kna",
+                      "name": "dim2",
+                      "width": "fill_container",
+                      "fill": "#18181b",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#27272a"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "JTdjZ",
+                          "fill": "#fafafa",
+                          "content": "Component Integrity · 75 / 100",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nbqIM",
+                          "width": "fill_container",
+                          "height": 6,
+                          "fill": "#27272a",
+                          "cornerRadius": 99,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "NybIR",
+                              "width": "fit_content(170)",
+                              "height": 6,
+                              "fill": "#22c55e",
+                              "cornerRadius": 99
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FRbk9",
+                      "name": "dim3",
+                      "width": "fill_container",
+                      "fill": "#18181b",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#27272a"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "x1Ju3",
+                          "fill": "#fafafa",
+                          "content": "Accessibility · 78 / 100",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "l8H1t",
+                          "width": "fill_container",
+                          "height": 6,
+                          "fill": "#27272a",
+                          "cornerRadius": 99,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "0YJGS",
+                              "width": "fit_content(180)",
+                              "height": 6,
+                              "fill": "#22c55e",
+                              "cornerRadius": 99
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "k6fLG",
+                  "name": "row2",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HLdrd",
+                      "name": "dim4",
+                      "width": "fill_container",
+                      "fill": "#18181b",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#27272a"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Uyg3K",
+                          "fill": "#fafafa",
+                          "content": "Structure & Semantics · 60 / 100",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HuZrs",
+                          "width": "fill_container",
+                          "height": 6,
+                          "fill": "#27272a",
+                          "cornerRadius": 99,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "xgxAT",
+                              "width": "fit_content(140)",
+                              "height": 6,
+                              "fill": "#f59e0b",
+                              "cornerRadius": 99
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "J4Ljq",
+                      "name": "dim5",
+                      "width": "fill_container",
+                      "fill": "#18181b",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#27272a"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "z85cS",
+                          "fill": "#fafafa",
+                          "content": "Variant Coverage · 78 / 100",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "XovD4",
+                          "width": "fill_container",
+                          "height": 6,
+                          "fill": "#27272a",
+                          "cornerRadius": 99,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "NimlM",
+                              "width": "fit_content(180)",
+                              "height": 6,
+                              "fill": "#22c55e",
+                              "cornerRadius": 99
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Pgeop",
+                      "name": "dim6",
+                      "width": "fill_container",
+                      "fill": "#18181b",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#27272a"
+                      },
+                      "layout": "vertical",
+                      "gap": 12,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "1YW4C",
+                          "fill": "#fafafa",
+                          "content": "Naming Consistency · 45 / 100",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "5zry1",
+                          "width": "fill_container",
+                          "height": 6,
+                          "fill": "#27272a",
+                          "cornerRadius": 99,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "0hrGP",
+                              "width": "fit_content(110)",
+                              "height": 6,
+                              "fill": "#ef4444",
+                              "cornerRadius": 99
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VlEAt",
+              "name": "issuesContainer",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "#27272a"
+              },
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                0,
+                0,
+                48,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "AtT98",
+                  "name": "issuesTitleFrame",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "omqhD",
+                      "fill": "#fafafa",
+                      "content": "Critical Issues",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qC4hy",
+                      "fill": "#a1a1aa",
+                      "content": "Flagged failures requiring immediate attention.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "BEJmA",
+                  "name": "issuesList",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "eZ19v",
+                      "name": "issue1",
+                      "width": "fill_container",
+                      "fill": "#18181b",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#27272a"
+                      },
+                      "gap": 16,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "wTmQO",
+                          "width": 4,
+                          "height": "fill_container",
+                          "fill": "#ef4444",
+                          "cornerRadius": 99
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qDfVh",
+                          "name": "issue1Data",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "0bCvJ",
+                              "fill": "#71717a",
+                              "content": "TOKEN INTEGRITY",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "OLUH4",
+                              "fill": "#fafafa",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Multiple tokens like '9598AB' or 'Title Max' do not follow valid schemas",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "yfFX7",
+                              "fill": "#a1a1aa",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Breaks AI token mapping completely; cannot infer role or intent",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Yg0Bh",
+                          "name": "issue1Badge",
+                          "fill": "#3f0000",
+                          "cornerRadius": 99,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#ef4444"
+                          },
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "4iIb0",
+                              "fill": "#f87171",
+                              "content": "high",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MBuUe",
+                      "name": "issue2",
+                      "width": "fill_container",
+                      "fill": "#18181b",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#27272a"
+                      },
+                      "gap": 16,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "hq3wu",
+                          "width": 4,
+                          "height": "fill_container",
+                          "fill": "#ef4444",
+                          "cornerRadius": 99
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xuoqO",
+                          "name": "issue2Data",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "yGW63",
+                              "fill": "#71717a",
+                              "content": "ACCESSIBILITY",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "5cbv3",
+                              "fill": "#fafafa",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Dark mode token set is entirely absent despite dark_mode_required: true",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Pn13Z",
+                              "fill": "#a1a1aa",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Full dark surface is WCAG-uncertifiable; no contrast can be verified",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ITGRu",
+                          "name": "issue2Badge",
+                          "fill": "#3f0000",
+                          "cornerRadius": 99,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#ef4444"
+                          },
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "VuFDm",
+                              "fill": "#f87171",
+                              "content": "high",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vxVQ8",
+                      "name": "issue3",
+                      "width": "fill_container",
+                      "fill": "#18181b",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#27272a"
+                      },
+                      "gap": 16,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Tq7V6",
+                          "width": 4,
+                          "height": "fill_container",
+                          "fill": "#ef4444",
+                          "cornerRadius": 99
+                        },
+                        {
+                          "type": "frame",
+                          "id": "1WaJ2",
+                          "name": "issue3Data",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "r6vsg",
+                              "fill": "#71717a",
+                              "content": "NAMING CONSISTENCY",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "GZlxc",
+                              "fill": "#fafafa",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Bilingual naming (Chinese sections, English components) creates non-parseable taxonomy",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "vqz2T",
+                              "fill": "#a1a1aa",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "AI agents cannot reliably infer component hierarchy or semantic role",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "q6ACa",
+                          "name": "issue3Badge",
+                          "fill": "#3f0000",
+                          "cornerRadius": 99,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#ef4444"
+                          },
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kILeo",
+                              "fill": "#f87171",
+                              "content": "high",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "7QVk7",
+                      "name": "issue4",
+                      "width": "fill_container",
+                      "fill": "#18181b",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#27272a"
+                      },
+                      "gap": 16,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "d9IFf",
+                          "width": 4,
+                          "height": "fill_container",
+                          "fill": "#ef4444",
+                          "cornerRadius": 99
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wTTDV",
+                          "name": "issue4Data",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Omt3R",
+                              "fill": "#71717a",
+                              "content": "VARIANT COVERAGE",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Zr1bf",
+                              "fill": "#fafafa",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "No focus state tokens or variants exist across any interactive component",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "eoPAK",
+                              "fill": "#a1a1aa",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Direct WCAG 2.4.11 violation risk; engineering cannot implement focus-visible",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "O1Wqd",
+                          "name": "issue4Badge",
+                          "fill": "#3f0000",
+                          "cornerRadius": 99,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#ef4444"
+                          },
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mD4fJ",
+                              "fill": "#f87171",
+                              "content": "high",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UcsAb",
+              "name": "roadmapContainer",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "#27272a"
+              },
+              "layout": "vertical",
+              "gap": 32,
+              "padding": [
+                0,
+                0,
+                48,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yzHvY",
+                  "name": "roadmapTitleFrame",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qAWag",
+                      "fill": "#fafafa",
+                      "content": "Optimization Roadmap",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Zz6Z6",
+                      "fill": "#a1a1aa",
+                      "content": "Prioritized action plan for improving the design system health.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "0ObVB",
+                  "name": "roadmapList",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "e6gAe",
+                      "name": "rm1",
+                      "width": "fill_container",
+                      "fill": "#18181b",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#27272a"
+                      },
+                      "gap": 16,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Oa8im",
+                          "name": "rm1Badge",
+                          "fill": "#3f0000",
+                          "cornerRadius": 8,
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SWGMf",
+                              "fill": "#f87171",
+                              "content": "HIGH",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "2fF0f",
+                          "name": "rm1Data",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "iDpBy",
+                              "fill": "#71717a",
+                              "content": "TOKEN NAMING",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "OkPJO",
+                              "fill": "#fafafa",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Rename all tokens to category.role.scale per ai-token-schema-simple-v1. Fix all typos. Remove phantom gradient tokens.",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "QMmSp",
+                              "fill": "#a1a1aa",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "↑ Naming consistency score rises; AI readiness unblocked",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Cln9g",
+                      "name": "rm2",
+                      "width": "fill_container",
+                      "fill": "#18181b",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#27272a"
+                      },
+                      "gap": 16,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "tBVKt",
+                          "name": "rm2Badge",
+                          "fill": "#3f0000",
+                          "cornerRadius": 8,
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "adBgv",
+                              "fill": "#f87171",
+                              "content": "HIGH",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zvB7p",
+                          "name": "rm2Data",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "AXlZD",
+                              "fill": "#71717a",
+                              "content": "ACCESSIBILITY — DARK MODE",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "aRcd7",
+                              "fill": "#fafafa",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Create a complete dark mode variable set for all bg, text, border, and action tokens",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "TPcGE",
+                              "fill": "#a1a1aa",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "↑ Unblocks dark mode WCAG certification; accessibility score rises",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZfvIM",
+                      "name": "rm3",
+                      "width": "fill_container",
+                      "fill": "#18181b",
+                      "cornerRadius": 12,
+                      "stroke": {
+                        "thickness": 1,
+                        "fill": "#27272a"
+                      },
+                      "gap": 16,
+                      "padding": 20,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "pZbpz",
+                          "name": "rm3Badge",
+                          "fill": "#3f2700",
+                          "cornerRadius": 8,
+                          "padding": [
+                            2,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "RSic1",
+                              "fill": "#fbbf24",
+                              "content": "MEDIUM",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "7DqCI",
+                          "name": "rm3Data",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "pfiRB",
+                              "fill": "#71717a",
+                              "content": "STRUCTURE & SEMANTICS",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "VsXip",
+                              "fill": "#fafafa",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Define English-only taxonomy; rename all auto-generated frame and group names to semantic identifiers",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "500"
+                            },
+                            {
+                              "type": "text",
+                              "id": "4t7BW",
+                              "fill": "#a1a1aa",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "↑ Structure score rises; AI frame-resolution accuracy improves drastically",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UTyss",
+              "name": "aiContainer",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "b64Ut",
+                  "name": "aiTitleFrame",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "89S6p",
+                      "fill": "#fafafa",
+                      "content": "AI Readiness Evaluation",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ASY68",
+                      "fill": "#a1a1aa",
+                      "content": "How well the system supports AI-driven code generation and design tooling.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ut9it",
+                  "name": "aiGrid",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "3Km8I",
+                      "name": "aiCol1",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "M3Luc",
+                          "name": "scoreCard",
+                          "width": "fill_container",
+                          "fill": "#18181b",
+                          "cornerRadius": 12,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#27272a"
+                          },
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "6JMgK",
+                              "fill": "#71717a",
+                              "content": "OVERALL AI READINESS",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "qOBMC",
+                              "fill": "#ef4444",
+                              "content": "18 / 100",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 42,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SeZ5u",
+                          "name": "signalsCard",
+                          "width": "fill_container",
+                          "fill": "#18181b",
+                          "cornerRadius": 12,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#27272a"
+                          },
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "5jGAt",
+                              "fill": "#71717a",
+                              "content": "SIGNAL BREAKDOWN",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "yqmg9",
+                              "name": "sig1",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "MUkr0",
+                                  "fill": "#a1a1aa",
+                                  "content": "Semantic instability",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "7Zd7R",
+                                  "fill": "#f87171",
+                                  "content": "Detected",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "0ABLx",
+                              "name": "sig2",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "hvn2x",
+                                  "fill": "#a1a1aa",
+                                  "content": "Hard-code penalty",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "EnG1p",
+                                  "fill": "#fafafa",
+                                  "content": "Applied",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "gJnoX",
+                              "name": "sig3",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "argw4",
+                                  "fill": "#a1a1aa",
+                                  "content": "Prompt stability",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "flSGP",
+                                  "fill": "#fafafa",
+                                  "content": "25%",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 12,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Mrl5R",
+                      "name": "aiCol2",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "T5Apy",
+                          "name": "penaltiesCard",
+                          "width": "fill_container",
+                          "fill": "#18181b",
+                          "cornerRadius": 12,
+                          "stroke": {
+                            "thickness": 1,
+                            "fill": "#27272a"
+                          },
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 20,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "yi6Dq",
+                              "fill": "#71717a",
+                              "content": "PENALTY DEDUCTIONS",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "KjuMu",
+                              "name": "penlistContainer",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "gZNai",
+                                  "name": "p1",
+                                  "width": "fill_container",
+                                  "stroke": {
+                                    "thickness": {
+                                      "bottom": 1
+                                    },
+                                    "fill": "#27272a"
+                                  },
+                                  "padding": [
+                                    6,
+                                    0
+                                  ],
+                                  "justifyContent": "space_between",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "wQQOf",
+                                      "fill": "#fafafa",
+                                      "content": "Missing semantic layer",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "IQG89",
+                                      "fill": "#f87171",
+                                      "content": "-15 pts",
+                                      "fontFamily": "Geist Mono",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Bvxre",
+                                  "name": "p2",
+                                  "width": "fill_container",
+                                  "stroke": {
+                                    "thickness": {
+                                      "bottom": 1
+                                    },
+                                    "fill": "#27272a"
+                                  },
+                                  "padding": [
+                                    6,
+                                    0
+                                  ],
+                                  "justifyContent": "space_between",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "LE2s5",
+                                      "fill": "#fafafa",
+                                      "content": "Hard-coded > 15%",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "5krYX",
+                                      "fill": "#f87171",
+                                      "content": "-10 pts",
+                                      "fontFamily": "Geist Mono",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "HSA5V",
+                                  "name": "p3",
+                                  "width": "fill_container",
+                                  "stroke": {
+                                    "thickness": {
+                                      "bottom": 1
+                                    },
+                                    "fill": "#27272a"
+                                  },
+                                  "padding": [
+                                    6,
+                                    0
+                                  ],
+                                  "justifyContent": "space_between",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "p51CG",
+                                      "fill": "#fafafa",
+                                      "content": "Variant instability (missing focus states)",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "sgNzn",
+                                      "fill": "#f87171",
+                                      "content": "-10 pts",
+                                      "fontFamily": "Geist Mono",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "MoJ7s",
+                                  "name": "p4",
+                                  "width": "fill_container",
+                                  "stroke": {
+                                    "thickness": {
+                                      "bottom": 1
+                                    },
+                                    "fill": "#27272a"
+                                  },
+                                  "padding": [
+                                    6,
+                                    0
+                                  ],
+                                  "justifyContent": "space_between",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "vJfxP",
+                                      "fill": "#fafafa",
+                                      "content": "Naming inconsistency (severe)",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "07OWI",
+                                      "fill": "#f87171",
+                                      "content": "-8 pts",
+                                      "fontFamily": "Geist Mono",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "t6y99",
+                                  "name": "p5",
+                                  "width": "fill_container",
+                                  "padding": [
+                                    6,
+                                    0
+                                  ],
+                                  "justifyContent": "space_between",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "My0bu",
+                                      "fill": "#fafafa",
+                                      "content": "Poor / undefined taxonomy (bilingual)",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "YC9dT",
+                                      "fill": "#f87171",
+                                      "content": "-7 pts",
+                                      "fontFamily": "Geist Mono",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "iIIAE",
+                                  "name": "p6",
+                                  "width": "fill_container",
+                                  "stroke": {
+                                    "thickness": {
+                                      "top": 1
+                                    },
+                                    "fill": "#8b5cf6"
+                                  },
+                                  "padding": [
+                                    10,
+                                    0,
+                                    0,
+                                    0
+                                  ],
+                                  "justifyContent": "space_between",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "qVc8i",
+                                      "fill": "#fafafa",
+                                      "content": "Final Score",
+                                      "fontFamily": "Inter",
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "7EY0k",
+                                      "fill": "#ef4444",
+                                      "content": "18",
+                                      "fontFamily": "Geist Mono",
+                                      "fontSize": 16,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JqJJV",
+                  "name": "notesCard",
+                  "width": "fill_container",
+                  "fill": "#18181b",
+                  "cornerRadius": 12,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#27272a"
+                  },
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "iMdKZ",
+                      "fill": "#71717a",
+                      "content": "AUDITOR NOTES",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Eq2oC",
+                      "fill": "#a1a1aa",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Heavy penalties applied due to extreme non-compliance in naming taxonomies and token structures that prevent automated AI parsing mechanisms from accurately determining system patterns.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JsajM",
+              "name": "footer",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "#27272a"
+              },
+              "padding": [
+                24,
+                0
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mHx0v",
+                  "fill": "#71717a",
+                  "content": "Generated by ds-audit-agent v1",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
