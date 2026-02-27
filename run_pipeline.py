@@ -6,6 +6,10 @@ import subprocess
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
+from urllib.parse import urlparse
+
+# Import the new decoupled HTML preview generator
+from generate_token_preview import generate_preview
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 from urllib.parse import parse_qs, urlparse
@@ -423,6 +427,12 @@ def run_phase1(
         f"<p>AI Readiness: {ai_readiness}/100</p>"
         "</body></html>"
     )
+
+    # Automatically generate the HTML visual preview for the proposed tokens
+    proposed_tokens_json = gap_dir / "proposed-tokens.json"
+    html_preview_out = gap_dir / "token-gap-preview.html"
+    if proposed_tokens_json.exists():
+        generate_preview(str(proposed_tokens_json), str(html_preview_out))
 
     return gap_dir, audit_dir, used_design_tokens_path
 
