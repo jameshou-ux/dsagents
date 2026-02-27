@@ -390,17 +390,17 @@ Minimum value: 0. Round to nearest integer.
 5.  Must be valid Markdown.
 6.  JSON blocks must be syntactically valid.
 7.  Do not hallucinate specific component names unless provided.
-8.  Always save the audit report to the `audit-report/` directory (see Report Output below).
+8.  Always save the audit report to the `1_audit-report/` directory (see Report Output below).
 
 ------------------------------------------------------------------------
 
 # Report Output
 
-After completing the audit, always save the full structured report, as well as any raw JSON metric data extracted, into a dynamically generated, timestamped directory named `audit_YYYYMMDD_HHMMSS` inside the `ds-audit-outputs/` folder (not `.agent/skills`).
+After completing the audit, always save the full structured report, as well as any raw JSON metric data extracted, into a dynamically generated, timestamped directory named `audit_YYYYMMDD_HHMMSS` inside the `1_audit-report/` folder (not `.agent/skills`).
 
-- **Save location**: `/Users/jameshou/Desktop/DS revamp trial/ds-audit-outputs/audit_YYYYMMDD_HHMMSS/`
-- **File naming**: `audit-report.md` and `audit-report.json`
+- **Save location**: `1_audit-report/audit_YYYYMMDD_HHMMSS/`
+- **File naming**: `audit-report.md`, `audit-report.html`, and `audit-report.json`
 - **Format**: The complete 8-section structure as defined in the Required Output Structure.
 - **Metadata**: Always include `figma_url` and `auditor: "ds-audit-agent v1"` in the Metadata block.
 
-If an `audit-report/` directory does not exist, create it before saving.
+If the `1_audit-report/` directory does not exist, create it before saving.

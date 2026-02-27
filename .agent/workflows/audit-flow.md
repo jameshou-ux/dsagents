@@ -1,13 +1,13 @@
 ---
-description: Run a full DS Audit Agent round — produces both a .md report and a matching interactive .html report under audit-report/
+description: Run a full DS Audit Agent round — produces both a .md report and a matching interactive .html report under 1_audit-report/
 ---
 
 # DS Audit Workflow
 
 This workflow governs a complete end-to-end audit run using the `ds-audit-agent` skill.
 It ensures that every audit produces two output files with matching names:
-- `audit-report/{slug}-audit-{YYYY-MM-DD-HHMM}.md` — structured markdown report
-- `audit-report/{slug}-audit-{YYYY-MM-DD-HHMM}.html` — interactive visual report
+- `1_audit-report/{slug}-audit-{YYYY-MM-DD-HHMM}.md` — structured markdown report
+- `1_audit-report/{slug}-audit-{YYYY-MM-DD-HHMM}.html` — interactive visual report
 
 ---
 
@@ -51,8 +51,8 @@ Compute the output filenames using this convention:
 slug   = {project-slug}               # e.g. "webapp-ds"
 datetime = {YYYY-MM-DD-HHMM}          # e.g. "2026-02-25-1150" (current date and time)
 base   = {slug}-audit-{datetime}      # e.g. "webapp-ds-audit-2026-02-25-1150"
-mdFile  = audit-report/{base}.md
-htmlFile = audit-report/{base}.html
+mdFile  = 1_audit-report/{base}.md
+htmlFile = 1_audit-report/{base}.html
 ```
 
 ---
@@ -154,8 +154,8 @@ Report back to the user with a summary:
 ```
 ✅ Audit complete for: {project_name}
 
-📄 Markdown report → audit-report/{base}.md
-🌐 HTML report     → audit-report/{base}.html
+📄 Markdown report → 1_audit-report/{base}.md
+🌐 HTML report     → 1_audit-report/{base}.html
 
 Overall Score:    {overall_score}/100
 AI Readiness:     {ai_readiness_score}/100
@@ -173,8 +173,8 @@ If any file write fails, report the error and retry once.
 | `slug`      | kebab-case           | `webapp-ds`                      |
 | `date`      | `YYYY-MM-DD`         | `2026-02-25`                     |
 | `base`      | `{slug}-audit-{date}`| `webapp-ds-audit-2026-02-25`     |
-| `.md` path  | `audit-report/{base}.md`  | `audit-report/webapp-ds-audit-2026-02-25.md`  |
-| `.html` path| `audit-report/{base}.html`| `audit-report/webapp-ds-audit-2026-02-25.html`|
+| `.md` path  | `1_audit-report/{base}.md`  | `1_audit-report/webapp-ds-audit-2026-02-25.md`  |
+| `.html` path| `1_audit-report/{base}.html`| `1_audit-report/webapp-ds-audit-2026-02-25.html`|
 
 ---
 
@@ -186,4 +186,4 @@ If any file write fails, report the error and retry once.
 | `.agent/skills/ds-audit-agent/wcag-profile-customer-v1.json` | Accessibility rules |
 | `.agent/skills/ds-audit-agent/ai-token-schema-simple-v1.json` | Token naming rules |
 | `.agent/skills/ds-audit-agent/templates/audit-report-template.html` | HTML output template |
-| `audit-report/` | Output directory for all generated reports |
+| `1_audit-report/` | Output directory for all generated reports |

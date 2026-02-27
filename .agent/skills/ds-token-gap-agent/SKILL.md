@@ -45,7 +45,7 @@ semantic tokens in the existing set.
 
 ## Output
 
-You must generate 4 files grouped into a dynamically generated, timestamped directory named `gap_YYYYMMDD_HHMMSS` inside the `gap-report/` folder:
+You must generate 4 files grouped into a dynamically generated, timestamped directory named `gap_YYYYMMDD_HHMMSS` inside the `0_gap-report/` folder:
 
 | File | Description |
 |---|---|
@@ -371,13 +371,19 @@ Produce all 4 output files. In `proposed-tokens.json`, group tokens by category 
 ## Interaction with Other Agents
 
 ```
-Designer (manual) → ds-token-gap-agent → [designer approves proposed-tokens.json]
-                                               ↓
-                                     ds-audit-agent
-                                               ↓
-                                     ds-refactor-agent
-                                               ↓
-                                     Code Sync Agent
+Phase 1 (Parallel):
+  ds-token-gap-agent  ─┐
+  ds-audit-agent       ─┤
+                        ↓
+   🔒 Human Review & Modification
+                        ↓
+Phase 2:
+  ds-refactor-agent
+                        ↓
+   🔒 Human Confirmation
+                        ↓
+Phase 3:
+  code-sync-agent
 ```
 
 The approved `proposed-tokens.json` is passed to the `ds-refactor-agent` as an additional input alongside the audit report.

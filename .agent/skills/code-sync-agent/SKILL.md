@@ -111,7 +111,27 @@ If dark mode is provided, nest the specific mode changes inside a media query or
 1. Parse the unified `figma-sync-tokens.json`.
 2. Determine which output targets are required based on user instruction.
 3. For each target, traverse the token list and generate the respective file.
-4. Output the files to the `/token-sync-outputs/` directory.
+4. Output the files into a dynamically generated, timestamped directory named `sync_YYYYMMDD_HHMMSS` inside the `4_code-sync-output/` folder.
+
+---
+
+## Agent Relationship
+
+```
+Phase 1 (Parallel):
+  ds-token-gap-agent  ─┐
+  ds-audit-agent       ─┤
+                        ↓
+   🔒 Human Review & Modification
+                        ↓
+Phase 2:
+  ds-refactor-agent
+                        ↓
+   🔒 Human Confirmation
+                        ↓
+Phase 3:
+  code-sync-agent  (← you are here)
+```
 
 ---
 

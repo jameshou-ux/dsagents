@@ -49,7 +49,7 @@ You must read **all 6 audit dimension scores** and activate repair protocols for
 
 ## Output
 
-You must generate all of the following files, grouped together into a dynamically generated, timestamped directory named `refactor_YYYYMMDD_HHMMSS` inside the `refactor-output/` folder:
+You must generate all of the following files, grouped together into a dynamically generated, timestamped directory named `refactor_YYYYMMDD_HHMMSS` inside the `3_refactor-output/` folder:
 
 | File | Description |
 |---|---|
@@ -348,7 +348,19 @@ Refactor is complete when **all** of the following are satisfied:
 ## Agent Relationship
 
 ```
-Audit Agent → Refactor Agent → Code Sync Agent
+Phase 1 (Parallel):
+  ds-token-gap-agent  ─┐
+  ds-audit-agent       ─┤
+                        ↓
+   🔒 Human Review & Modification
+                        ↓
+Phase 2:
+  ds-refactor-agent  (← you are here)
+                        ↓
+   🔒 Human Confirmation
+                        ↓
+Phase 3:
+  code-sync-agent
 ```
 
 Refactor Agent must not perform code generation.

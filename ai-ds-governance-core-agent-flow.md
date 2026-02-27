@@ -104,15 +104,18 @@ recommendations (if requested)
 ## Core Governance Flow
 
 **Phase 1: Analysis (Parallel)**
-- Step 1A → `ds-audit-agent` (Scans Figma structure)
-- Step 1B → `ds-token-gap-agent` (Analyzes mathematical completeness vs standard)
+- Step 1A → `ds-token-gap-agent` → outputs to `0_gap-report/gap_YYYYMMDD_HHMMSS/`
+- Step 1B → `ds-audit-agent` → outputs to `1_audit-report/audit_YYYYMMDD_HHMMSS/`
+
+🔒 **Human Review & Modification** — designer previews gap proposals + audit report, makes edits as needed
 
 **Phase 2: Consolidation & Remediation**
-- Step 2 → `ds-refactor-agent` (Merges 1A and 1B into a final sync payload)
+- Step 2 → `ds-refactor-agent` → outputs to `3_refactor-output/refactor_YYYYMMDD_HHMMSS/`
+
+🔒 **Human Confirmation** — designer reviews refactor plan before code sync
 
 **Phase 3: Implementation**
-- Step 3 → `token-compiler-agent` (Translates for code)
-- Step 4 → `code-sync-agent` (Pushes to Figma and GitHub)
+- Step 3 → `code-sync-agent` → outputs to `4_code-sync-output/sync_YYYYMMDD_HHMMSS/`
 
 ------------------------------------------------------------------------
 
@@ -122,13 +125,15 @@ Slack Command
 ↓
 slack-orchestrator-agent
 ↓
-[ds-audit-agent  +  ds-token-gap-agent] 
+[ds-audit-agent  +  ds-token-gap-agent]   ← Phase 1 (Parallel)
 ↓
-ds-refactor-agent
+🔒 Human Review & Modification
 ↓
-token-compiler-agent
+ds-refactor-agent                          ← Phase 2
 ↓
-code-sync-agent
+🔒 Human Confirmation
+↓
+code-sync-agent                            ← Phase 3
 ↓
 Slack Feedback + Dashboard Link
 
@@ -138,12 +143,14 @@ Slack Feedback + Dashboard Link
 
 Slack
 ↓
-Analysis (Audit + Token Gaps)
+Phase 1: Analysis (Audit + Token Gaps)  — parallel
 ↓
-Refactor Plan (Merge to figma-sync-tokens.json)
+🔒 Human Review & Modification
 ↓
-Token Compilation
+Phase 2: Refactor (Merge to figma-sync-tokens.json)
 ↓
-Code Sync
+🔒 Human Confirmation
+↓
+Phase 3: Code Sync
 ↓
 Slack Notification
