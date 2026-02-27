@@ -1,0 +1,11 @@
+{
+  "variables": {
+    "Primary": "#ff3300",
+    "Text/Primary": "#101010",
+    "Background/General": "#fafafa",
+    "Background/Card": "#ffffff",
+    "Dividers & borders": "#dddddd",
+    "Text On Color": "#ffffff",
+    "Stoke/Icon stroke": "#222222"
+  }
+}
