@@ -125,15 +125,18 @@ Slack Command
 ↓
 slack-orchestrator-agent
 ↓
-[ds-audit-agent  +  ds-token-gap-agent]   ← Phase 1 (Parallel)
+**Phase 1: Analysis** (Parallel) → `python run_pipeline.py audit --figma-url <url>`
+[ds-audit-agent  +  ds-token-gap-agent]
 ↓
 🔒 Human Review & Modification
 ↓
-ds-refactor-agent                          ← Phase 2
+**Phase 2: Refactor** → `python run_pipeline.py refactor --run-id <run_id>`
+ds-refactor-agent
 ↓
 🔒 Human Confirmation
 ↓
-code-sync-agent                            ← Phase 3
+**Phase 3: Code Sync** → `python run_pipeline.py sync --run-id <run_id>`
+code-sync-agent
 ↓
 Slack Feedback + Dashboard Link
 
@@ -144,13 +147,16 @@ Slack Feedback + Dashboard Link
 Slack
 ↓
 Phase 1: Analysis (Audit + Token Gaps)  — parallel
+`run_pipeline.py audit`
 ↓
 🔒 Human Review & Modification
 ↓
 Phase 2: Refactor (Merge to figma-sync-tokens.json)
+`run_pipeline.py refactor`
 ↓
 🔒 Human Confirmation
 ↓
 Phase 3: Code Sync
+`run_pipeline.py sync`
 ↓
 Slack Notification
