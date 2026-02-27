@@ -390,7 +390,7 @@ Minimum value: 0. Round to nearest integer.
 5.  Must be valid Markdown.
 6.  JSON blocks must be syntactically valid.
 7.  Do not hallucinate specific component names unless provided.
-8.  Always save the audit report to the `audit-reports/` directory (see Report Output below).
+8.  Always save the audit report to the `audit-report/` directory (see Report Output below).
 
 ------------------------------------------------------------------------
 
@@ -403,4 +403,4 @@ After completing the audit, always save the full structured report, as well as a
 - **Format**: The complete 8-section structure as defined in the Required Output Structure.
 - **Metadata**: Always include `figma_url` and `auditor: "ds-audit-agent v1"` in the Metadata block.
 
-If an `audit-reports/` directory does not exist, create it before saving.
+If an `audit-report/` directory does not exist, create it before saving.

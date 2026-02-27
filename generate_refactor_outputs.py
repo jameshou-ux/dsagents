@@ -3,8 +3,8 @@ import os
 import re
 
 DESIGN_TOKENS_PATH = "/Users/jameshou/Desktop/DS revamp trial/design-tokens.json"
-PROPOSED_TOKENS_PATH = "/Users/jameshou/Desktop/DS revamp trial/token-gap-outputs/proposed-tokens.json"
-OUT_DIR = "/Users/jameshou/Desktop/DS revamp trial/refactor-outputs/webapp/"
+PROPOSED_TOKENS_PATH = "/Users/jameshou/Desktop/DS revamp trial/gap-report/proposed-tokens.json"
+OUT_DIR = "/Users/jameshou/Desktop/DS revamp trial/refactor-output/webapp/"
 
 def hex_to_rgb(hex_str):
     hex_str = hex_str.lstrip('#')

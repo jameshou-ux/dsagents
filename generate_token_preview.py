@@ -4,11 +4,11 @@ from datetime import datetime
 
 # The preview generator should read the most recently generated proposed-tokens.json
 # For testing, we point it to the recently organized timestamp folder
-INPUT_JSON_PATH = "/Users/jameshou/Desktop/DS revamp trial/token-gap-outputs/gap_20260227_094500/proposed-tokens.json"
+INPUT_JSON_PATH = "/Users/jameshou/Desktop/DS revamp trial/gap-report/gap_20260227_094500/proposed-tokens.json"
 
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 SESSION_DIR = f"gap_{timestamp}"
-OUT_DIR = f"/Users/jameshou/Desktop/DS revamp trial/token-gap-outputs/{SESSION_DIR}"
+OUT_DIR = f"/Users/jameshou/Desktop/DS revamp trial/gap-report/{SESSION_DIR}"
 OUTPUT_HTML_PATH = f"{OUT_DIR}/token-gap-preview.html"
 
 os.makedirs(OUT_DIR, exist_ok=True)
