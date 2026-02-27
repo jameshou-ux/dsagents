@@ -1,0 +1,111 @@
+{
+  "schema": "ai_token_schema_simple_v1",
+  "status": "ready_for_figma_sync",
+  "metrics": {
+    "mapped": 16,
+    "removed": 8
+  },
+  "tokens": [
+    {
+      "name": "color.brand.logo",
+      "value": "#111d4a",
+      "legacyFigmaName": "Fill/Logo",
+      "type": "color"
+    },
+    {
+      "name": "color.background.card",
+      "value": "#ffffff",
+      "legacyFigmaName": "Bg Fill/Card",
+      "type": "color"
+    },
+    {
+      "name": "color.text.primary",
+      "value": "#111d4a",
+      "legacyFigmaName": "Text/Primary",
+      "type": "color"
+    },
+    {
+      "name": "color.text.secondary",
+      "value": "#111d4a66",
+      "legacyFigmaName": "Text/Secondary",
+      "type": "color"
+    },
+    {
+      "name": "color.brand.primary.500",
+      "value": "#8034E3",
+      "legacyFigmaName": "Action/01Primary",
+      "type": "color"
+    },
+    {
+      "name": "color.brand.primary.500",
+      "value": "#007fff33",
+      "legacyFigmaName": "Primary background",
+      "type": "color"
+    },
+    {
+      "name": "color.brand.primary.500",
+      "value": "#007fff",
+      "legacyFigmaName": "Primary",
+      "type": "color"
+    },
+    {
+      "name": "color.background.card",
+      "value": "#ffffff",
+      "legacyFigmaName": "Background/Card",
+      "type": "color"
+    },
+    {
+      "name": "color.neutral.400",
+      "value": "#9598AB",
+      "legacyFigmaName": "Inactive states",
+      "type": "color"
+    },
+    {
+      "name": "color.neutral.400",
+      "value": "#9598AB",
+      "legacyFigmaName": "9598AB",
+      "type": "color"
+    },
+    {
+      "name": "color.neutral.50",
+      "value": "#ffffff",
+      "legacyFigmaName": "White800; Deep800",
+      "type": "color"
+    },
+    {
+      "name": "color.text.primary",
+      "value": "#111d4a",
+      "legacyFigmaName": "Text Primary",
+      "type": "color"
+    },
+    {
+      "name": "color.background.primary",
+      "value": "#FFFFFF",
+      "legacyFigmaName": "White",
+      "type": "color"
+    },
+    {
+      "name": "color.brand.primary.500",
+      "value": "#000000",
+      "legacyFigmaName": "Label Color / Light / Primary",
+      "type": "color"
+    },
+    {
+      "name": "color.text.secondary",
+      "value": "#111d4a66",
+      "legacyFigmaName": "Text Secondary",
+      "type": "color"
+    },
+    {
+      "name": "color.background.primary",
+      "value": "#FFFFFF",
+      "legacyFigmaName": "Light Primary",
+      "type": "color"
+    }
+  ],
+  "instructions": [
+    "Use this JSON payload via Figma Plugin API to update variable definitions.",
+    "Plugin should iterate `tokens`, update or create variables matching `name`.",
+    "Once verified, run a destructive update deleting any alias matching `legacyFigmaName`."
+  ]
+}

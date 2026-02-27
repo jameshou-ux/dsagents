@@ -1,0 +1,24 @@
+{
+    "hierarchy_changes": [
+        {
+            "level": "Primitive",
+            "description": "Establish base color, spacing, and typography scales. Added complete dark mode variants.",
+            "status": "pending_upgrade"
+        },
+        {
+            "level": "Foundation",
+            "description": "Created semantic aliases for Primitive tokens (e.g., color.text.primary, color.bg.surface).",
+            "status": "pending_upgrade"
+        },
+        {
+            "level": "Pattern",
+            "description": "Standardized Auto-Layout on all primitive elements. Decomposed overloaded layout groups into component slots. Introduced interaction states: focus, empty, loading.",
+            "status": "pending_refactor"
+        },
+        {
+            "level": "Template",
+            "description": "Assemble patterns into functional page definitions without hardcoding text fields inside components.",
+            "status": "pending_refactor"
+        }
+    ]
+}

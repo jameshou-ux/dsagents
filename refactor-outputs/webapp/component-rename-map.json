@@ -1,0 +1,37 @@
+[
+    {
+        "legacy_name": "管理交易密码 (Manage Transaction Password)",
+        "new_name": "Modal",
+        "variant_structure": {
+            "variant": "default",
+            "size": "md"
+        },
+        "notes": "Extracted Chinese description into properties/documentation."
+    },
+    {
+        "legacy_name": "blue_button",
+        "new_name": "Button",
+        "variant_structure": {
+            "variant": "primary",
+            "size": "md",
+            "state": "default"
+        }
+    },
+    {
+        "legacy_name": "popup_big",
+        "new_name": "Modal",
+        "variant_structure": {
+            "variant": "default",
+            "size": "lg"
+        }
+    },
+    {
+        "legacy_name": "图层 12 / Layer 12",
+        "new_name": "Container",
+        "variant_structure": {
+            "variant": "surface",
+            "state": "default"
+        },
+        "notes": "Fixed auto-layout container nameless group."
+    }
+]

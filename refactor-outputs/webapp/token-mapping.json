@@ -1,0 +1,47 @@
+{
+    "mappings": [
+        {
+            "legacy_name": "9598AB",
+            "new_name": "color.neutral.500",
+            "value_light": "#9598ab",
+            "value_dark": "#71717a",
+            "type": "color"
+        },
+        {
+            "legacy_name": "Deep600,White600",
+            "new_name": "color.brand.primary.600",
+            "value_light": "#111d4a",
+            "value_dark": "#1d4ed8",
+            "type": "color"
+        },
+        {
+            "legacy_name": "Fill/Logo",
+            "new_name": "color.brand.logo",
+            "value_light": "#111d4a",
+            "value_dark": "#bfdbfe",
+            "type": "color"
+        },
+        {
+            "legacy_name": "Secondary text (opacity)",
+            "new_name": "color.text.secondary",
+            "value_light": "#52525b",
+            "value_dark": "#a1a1aa",
+            "type": "color",
+            "notes": "Replaced transparency with solid WCAG-AA compliant gray."
+        },
+        {
+            "legacy_name": "Placeholder",
+            "new_name": "color.text.placeholder",
+            "value_light": "#71717a",
+            "value_dark": "#a1a1aa",
+            "type": "color",
+            "notes": "Replaced transparency with solid WCAG-AA compliant gray."
+        }
+    ],
+    "removed_tokens": [
+        "empty_gradient_1",
+        "empty_gradient_2",
+        "invalid_transparent_vars"
+    ],
+    "schema_version": "ai_token_schema_simple_v1"
+}
