@@ -103,41 +103,47 @@ recommendations (if requested)
 
 ## Core Governance Flow
 
-Step 1 → ds-audit-agent\
-Step 2 → ds-refactor-agent\
-Step 3 → token-compiler-agent\
-Step 4 → code-sync-agent
+**Phase 1: Analysis (Parallel)**
+- Step 1A → `ds-audit-agent` (Scans Figma structure)
+- Step 1B → `ds-token-gap-agent` (Analyzes mathematical completeness vs standard)
+
+**Phase 2: Consolidation & Remediation**
+- Step 2 → `ds-refactor-agent` (Merges 1A and 1B into a final sync payload)
+
+**Phase 3: Implementation**
+- Step 3 → `token-compiler-agent` (Translates for code)
+- Step 4 → `code-sync-agent` (Pushes to Figma and GitHub)
 
 ------------------------------------------------------------------------
 
 # 5️⃣ Slack-Orchestrated Flow
 
-Slack Command\
-↓\
-slack-orchestrator-agent\
-↓\
-ds-audit-agent\
-↓\
-ds-refactor-agent\
-↓\
-token-compiler-agent\
-↓\
-code-sync-agent\
-↓\
+Slack Command
+↓
+slack-orchestrator-agent
+↓
+[ds-audit-agent  +  ds-token-gap-agent] 
+↓
+ds-refactor-agent
+↓
+token-compiler-agent
+↓
+code-sync-agent
+↓
 Slack Feedback + Dashboard Link
 
 ------------------------------------------------------------------------
 
 # 6️⃣ Final Pipeline Summary
 
-Slack\
-↓\
-Audit (Figma via MCP)\
-↓\
-Refactor Plan\
-↓\
-Token Compilation\
-↓\
-Code Sync\
-↓\
+Slack
+↓
+Analysis (Audit + Token Gaps)
+↓
+Refactor Plan (Merge to figma-sync-tokens.json)
+↓
+Token Compilation
+↓
+Code Sync
+↓
 Slack Notification

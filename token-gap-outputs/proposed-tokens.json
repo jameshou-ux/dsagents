@@ -1,0 +1,648 @@
+{
+    "schema": "proposed-tokens-v1",
+    "status": "PROPOSAL — requires designer review before Figma sync",
+    "generated": "2026-02-26",
+    "anchors": {
+        "brand_primary": "#8034E3",
+        "brand_secondary": "#007fff",
+        "neutral": "#9598AB",
+        "text_primary": "#111d4a",
+        "background_primary": "#ffffff"
+    },
+    "tokens": {
+        "color": {
+            "brand": {
+                "primary": {
+                    "50": {
+                        "value": "#f5eeff",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #8034E3"
+                    },
+                    "100": {
+                        "value": "#e8d5fc",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #8034E3"
+                    },
+                    "200": {
+                        "value": "#d0aaf8",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #8034E3"
+                    },
+                    "300": {
+                        "value": "#b87ff4",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #8034E3"
+                    },
+                    "400": {
+                        "value": "#9f55ec",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #8034E3"
+                    },
+                    "500": {
+                        "value": "#8034E3",
+                        "confidence": "extracted",
+                        "method": "Direct from Figma variable 'Action/01Primary'"
+                    },
+                    "600": {
+                        "value": "#6828b8",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #8034E3"
+                    },
+                    "700": {
+                        "value": "#4e1e8a",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #8034E3"
+                    },
+                    "800": {
+                        "value": "#35145c",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #8034E3"
+                    },
+                    "900": {
+                        "value": "#1c0a2e",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #8034E3"
+                    }
+                },
+                "secondary": {
+                    "50": {
+                        "value": "#e6f3ff",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #007fff"
+                    },
+                    "100": {
+                        "value": "#bfddff",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #007fff"
+                    },
+                    "200": {
+                        "value": "#80bbff",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #007fff"
+                    },
+                    "300": {
+                        "value": "#4d9fff",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #007fff"
+                    },
+                    "400": {
+                        "value": "#1a83ff",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #007fff"
+                    },
+                    "500": {
+                        "value": "#007fff",
+                        "confidence": "extracted",
+                        "method": "Direct from Figma variable 'Blue600; Blue500'"
+                    },
+                    "600": {
+                        "value": "#0065cc",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #007fff"
+                    },
+                    "700": {
+                        "value": "#004c99",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #007fff"
+                    },
+                    "800": {
+                        "value": "#003266",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #007fff"
+                    },
+                    "900": {
+                        "value": "#001933",
+                        "confidence": "inferred",
+                        "method": "HSL lightness interpolation from #007fff"
+                    }
+                }
+            },
+            "neutral": {
+                "50": {
+                    "value": "#f7f7f9",
+                    "confidence": "inferred",
+                    "method": "HSL lightness interpolation from #9598AB"
+                },
+                "100": {
+                    "value": "#eaecf0",
+                    "confidence": "inferred",
+                    "method": "HSL lightness interpolation from #9598AB"
+                },
+                "200": {
+                    "value": "#d4d6e0",
+                    "confidence": "inferred",
+                    "method": "HSL lightness interpolation from #9598AB"
+                },
+                "300": {
+                    "value": "#b8bbc9",
+                    "confidence": "inferred",
+                    "method": "HSL lightness interpolation from #9598AB"
+                },
+                "400": {
+                    "value": "#9598AB",
+                    "confidence": "extracted",
+                    "method": "Direct from Figma variable 'Inactive states'"
+                },
+                "500": {
+                    "value": "#777a8e",
+                    "confidence": "inferred",
+                    "method": "HSL lightness interpolation from #9598AB"
+                },
+                "600": {
+                    "value": "#5a5d70",
+                    "confidence": "inferred",
+                    "method": "HSL lightness interpolation from #9598AB"
+                },
+                "700": {
+                    "value": "#3f4153",
+                    "confidence": "inferred",
+                    "method": "HSL lightness interpolation from #9598AB"
+                },
+                "800": {
+                    "value": "#27293a",
+                    "confidence": "inferred",
+                    "method": "HSL lightness interpolation from #9598AB"
+                },
+                "900": {
+                    "value": "#111220",
+                    "confidence": "inferred",
+                    "method": "HSL lightness interpolation from #9598AB"
+                }
+            },
+            "status": {
+                "success": {
+                    "default": {
+                        "value": "#4bce71",
+                        "confidence": "extracted",
+                        "method": "Direct from Figma variable 'Success'"
+                    },
+                    "subtle": {
+                        "value": "#e8fbed",
+                        "confidence": "inferred",
+                        "method": "10% tint of #4bce71 on white"
+                    },
+                    "text": {
+                        "value": "#1a8c3a",
+                        "confidence": "inferred",
+                        "method": "Contrast-safe dark green (6.2:1 on white)"
+                    },
+                    "border": {
+                        "value": "#4bce71",
+                        "confidence": "inferred",
+                        "method": "Same as default"
+                    }
+                },
+                "warning": {
+                    "default": {
+                        "value": "#fc8c4d",
+                        "confidence": "inferred",
+                        "method": "Inferred from 'Yellow600; Yellow500'"
+                    },
+                    "subtle": {
+                        "value": "#fff3ec",
+                        "confidence": "inferred",
+                        "method": "10% tint of #fc8c4d on white"
+                    },
+                    "text": {
+                        "value": "#b85a1a",
+                        "confidence": "inferred",
+                        "method": "Contrast-safe dark amber (5.1:1 on white)"
+                    },
+                    "border": {
+                        "value": "#fc8c4d",
+                        "confidence": "inferred",
+                        "method": "Same as default"
+                    }
+                },
+                "danger": {
+                    "default": {
+                        "value": "#f3636f",
+                        "confidence": "extracted",
+                        "method": "Direct from Figma variable 'Error'"
+                    },
+                    "subtle": {
+                        "value": "#fdeaea",
+                        "confidence": "inferred",
+                        "method": "10% tint of #f3636f on white"
+                    },
+                    "text": {
+                        "value": "#c0202d",
+                        "confidence": "inferred",
+                        "method": "Contrast-safe dark red (5.8:1 on white)"
+                    },
+                    "border": {
+                        "value": "#f3636f",
+                        "confidence": "inferred",
+                        "method": "Same as default"
+                    }
+                },
+                "info": {
+                    "default": {
+                        "value": "#007fff",
+                        "confidence": "extracted",
+                        "method": "Direct from Figma variable 'Primary'"
+                    },
+                    "subtle": {
+                        "value": "#e6f3ff",
+                        "confidence": "inferred",
+                        "method": "10% tint of #007fff on white"
+                    },
+                    "text": {
+                        "value": "#004c99",
+                        "confidence": "inferred",
+                        "method": "Contrast-safe dark blue (7.2:1 on white)"
+                    },
+                    "border": {
+                        "value": "#007fff",
+                        "confidence": "inferred",
+                        "method": "Same as default"
+                    }
+                }
+            },
+            "text": {
+                "secondary": {
+                    "value": "#6b6e80",
+                    "confidence": "inferred",
+                    "method": "Solid equivalent of #111d4a66, adjusted to pass WCAG AA 4.5:1 on white (ratio: 4.6:1)"
+                },
+                "placeholder": {
+                    "value": "#767a8e",
+                    "confidence": "inferred",
+                    "method": "Solid equivalent of #111d4a33, adjusted to pass WCAG AA 4.5:1 on white (ratio: 4.5:1)"
+                },
+                "disabled": {
+                    "value": "#9598AB",
+                    "confidence": "inferred",
+                    "method": "Mapped to color.neutral.400 — standard disabled state"
+                },
+                "inverse": {
+                    "value": "#ffffff",
+                    "confidence": "extracted",
+                    "method": "Direct from Figma variable 'Text On Color'"
+                },
+                "on-brand": {
+                    "value": "#ffffff",
+                    "confidence": "inferred",
+                    "method": "White on brand primary — standard pattern"
+                }
+            },
+            "background": {
+                "secondary": {
+                    "value": "#f0f1f3",
+                    "confidence": "extracted",
+                    "method": "Inferred from Figma variable 'Fill/Fill A'"
+                },
+                "disabled": {
+                    "value": "#eaecf0",
+                    "confidence": "inferred",
+                    "method": "Mapped to color.neutral.100"
+                },
+                "overlay": {
+                    "value": "#00000066",
+                    "confidence": "extracted",
+                    "method": "Direct from Figma 'modal bg' — note: opacity, review for dark mode"
+                }
+            },
+            "border": {
+                "strong": {
+                    "value": "#111d4a",
+                    "confidence": "inferred",
+                    "method": "Mapped to color.text.primary for strong border"
+                },
+                "focus": {
+                    "value": "#8034E3",
+                    "confidence": "inferred",
+                    "method": "Mapped to color.brand.primary.500 — standard focus ring pattern"
+                },
+                "disabled": {
+                    "value": "#d4d6e0",
+                    "confidence": "inferred",
+                    "method": "Mapped to color.neutral.200"
+                }
+            },
+            "icon": {
+                "secondary": {
+                    "value": "#9598AB",
+                    "confidence": "inferred",
+                    "method": "Mapped to color.neutral.400"
+                },
+                "disabled": {
+                    "value": "#d4d6e0",
+                    "confidence": "inferred",
+                    "method": "Mapped to color.neutral.200"
+                },
+                "on-brand": {
+                    "value": "#ffffff",
+                    "confidence": "inferred",
+                    "method": "White on brand — standard pattern"
+                }
+            }
+        },
+        "spacing": {
+            "0": {
+                "value": "0px",
+                "confidence": "generated",
+                "method": "8pt grid standard"
+            },
+            "1": {
+                "value": "2px",
+                "confidence": "generated",
+                "method": "8pt grid standard"
+            },
+            "2": {
+                "value": "4px",
+                "confidence": "generated",
+                "method": "8pt grid standard"
+            },
+            "3": {
+                "value": "8px",
+                "confidence": "generated",
+                "method": "8pt grid standard"
+            },
+            "4": {
+                "value": "12px",
+                "confidence": "generated",
+                "method": "8pt grid standard"
+            },
+            "5": {
+                "value": "16px",
+                "confidence": "generated",
+                "method": "8pt grid standard"
+            },
+            "6": {
+                "value": "24px",
+                "confidence": "generated",
+                "method": "8pt grid standard"
+            },
+            "7": {
+                "value": "32px",
+                "confidence": "generated",
+                "method": "8pt grid standard"
+            },
+            "8": {
+                "value": "40px",
+                "confidence": "generated",
+                "method": "8pt grid standard"
+            },
+            "9": {
+                "value": "48px",
+                "confidence": "generated",
+                "method": "8pt grid standard"
+            },
+            "10": {
+                "value": "64px",
+                "confidence": "generated",
+                "method": "8pt grid standard"
+            },
+            "11": {
+                "value": "80px",
+                "confidence": "generated",
+                "method": "8pt grid standard"
+            },
+            "12": {
+                "value": "96px",
+                "confidence": "generated",
+                "method": "8pt grid standard"
+            }
+        },
+        "font": {
+            "family": {
+                "sans": {
+                    "value": "Noto Sans",
+                    "confidence": "inferred",
+                    "method": "Most frequently used body font in file"
+                },
+                "display": {
+                    "value": "Sora",
+                    "confidence": "inferred",
+                    "method": "Used for large heading styles in file"
+                },
+                "ui": {
+                    "value": "SF Pro",
+                    "confidence": "inferred",
+                    "method": "Used for UI labels and amount styles in file"
+                }
+            },
+            "size": {
+                "lg": {
+                    "value": "18px",
+                    "confidence": "generated",
+                    "method": "Standard scale step between 16px and 20px"
+                },
+                "2xl": {
+                    "value": "20px",
+                    "confidence": "generated",
+                    "method": "Standard scale step between 18px and 24px"
+                },
+                "4xl": {
+                    "value": "36px",
+                    "confidence": "generated",
+                    "method": "Standard scale step between 32px and 48px"
+                }
+            },
+            "weight": {
+                "semibold": {
+                    "value": "600",
+                    "confidence": "inferred",
+                    "method": "Normalized from non-standard 590 to CSS-standard 600"
+                }
+            },
+            "lineheight": {
+                "tight": {
+                    "value": "1.2",
+                    "confidence": "generated",
+                    "method": "Standard tight line height for display text"
+                }
+            },
+            "tracking": {
+                "tight": {
+                    "value": "-0.015em",
+                    "confidence": "generated",
+                    "method": "Standard negative tracking for display headings"
+                },
+                "wide": {
+                    "value": "0.05em",
+                    "confidence": "generated",
+                    "method": "Standard wide tracking for labels/caps"
+                }
+            }
+        },
+        "radius": {
+            "none": {
+                "value": "0px",
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "sm": {
+                "value": "2px",
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "md": {
+                "value": "4px",
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "lg": {
+                "value": "8px",
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "xl": {
+                "value": "12px",
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "2xl": {
+                "value": "16px",
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "full": {
+                "value": "9999px",
+                "confidence": "generated",
+                "method": "Industry standard pill shape"
+            }
+        },
+        "shadow": {
+            "none": {
+                "value": "none",
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "xs": {
+                "value": "0 1px 2px rgba(0,0,0,0.05)",
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "sm": {
+                "value": "0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06)",
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "md": {
+                "value": "0 4px 6px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.06)",
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "lg": {
+                "value": "0 10px 15px rgba(0,0,0,0.1), 0 4px 6px rgba(0,0,0,0.05)",
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "xl": {
+                "value": "0 20px 25px rgba(0,0,0,0.1), 0 10px 10px rgba(0,0,0,0.04)",
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "2xl": {
+                "value": "0 25px 50px rgba(0,0,0,0.25)",
+                "confidence": "generated",
+                "method": "Industry standard"
+            }
+        },
+        "z": {
+            "below": {
+                "value": -1,
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "base": {
+                "value": 0,
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "raised": {
+                "value": 10,
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "dropdown": {
+                "value": 100,
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "sticky": {
+                "value": 200,
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "overlay": {
+                "value": 300,
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "modal": {
+                "value": 400,
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "toast": {
+                "value": 500,
+                "confidence": "generated",
+                "method": "Industry standard"
+            },
+            "tooltip": {
+                "value": 600,
+                "confidence": "generated",
+                "method": "Industry standard"
+            }
+        },
+        "motion": {
+            "duration": {
+                "instant": {
+                    "value": "0ms",
+                    "confidence": "generated",
+                    "method": "Industry standard"
+                },
+                "fast": {
+                    "value": "100ms",
+                    "confidence": "generated",
+                    "method": "Industry standard"
+                },
+                "normal": {
+                    "value": "200ms",
+                    "confidence": "generated",
+                    "method": "Industry standard"
+                },
+                "slow": {
+                    "value": "300ms",
+                    "confidence": "generated",
+                    "method": "Industry standard"
+                },
+                "slower": {
+                    "value": "500ms",
+                    "confidence": "generated",
+                    "method": "Industry standard"
+                }
+            },
+            "easing": {
+                "default": {
+                    "value": "ease",
+                    "confidence": "generated",
+                    "method": "Industry standard"
+                },
+                "in": {
+                    "value": "ease-in",
+                    "confidence": "generated",
+                    "method": "Industry standard"
+                },
+                "out": {
+                    "value": "ease-out",
+                    "confidence": "generated",
+                    "method": "Industry standard"
+                },
+                "in-out": {
+                    "value": "ease-in-out",
+                    "confidence": "generated",
+                    "method": "Industry standard"
+                },
+                "spring": {
+                    "value": "cubic-bezier(0.175, 0.885, 0.32, 1.275)",
+                    "confidence": "generated",
+                    "method": "Industry standard spring easing"
+                }
+            }
+        }
+    }
+}

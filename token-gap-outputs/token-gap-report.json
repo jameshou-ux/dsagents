@@ -1,0 +1,709 @@
+{
+    "schema": "token-gap-report-v1",
+    "generated": "2026-02-26",
+    "figma_file": "4CyZin0s6OuOEdnUwefLje",
+    "node_id": "321-9714",
+    "summary": {
+        "total_existing_variables": 110,
+        "total_missing_tokens": 97,
+        "critical": 13,
+        "high": 52,
+        "medium": 22,
+        "low": 10,
+        "contrast_violations": 5
+    },
+    "gaps": [
+        {
+            "token": "color.brand.primary.50",
+            "category": "color.brand",
+            "reason": "Brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.primary.100",
+            "category": "color.brand",
+            "reason": "Brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.primary.200",
+            "category": "color.brand",
+            "reason": "Brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.primary.300",
+            "category": "color.brand",
+            "reason": "Brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.primary.400",
+            "category": "color.brand",
+            "reason": "Brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.primary.600",
+            "category": "color.brand",
+            "reason": "Brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.primary.700",
+            "category": "color.brand",
+            "reason": "Brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.primary.800",
+            "category": "color.brand",
+            "reason": "Brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.primary.900",
+            "category": "color.brand",
+            "reason": "Brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.secondary.50",
+            "category": "color.brand",
+            "reason": "Secondary brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.secondary.100",
+            "category": "color.brand",
+            "reason": "Secondary brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.secondary.200",
+            "category": "color.brand",
+            "reason": "Secondary brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.secondary.300",
+            "category": "color.brand",
+            "reason": "Secondary brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.secondary.400",
+            "category": "color.brand",
+            "reason": "Secondary brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.secondary.600",
+            "category": "color.brand",
+            "reason": "Secondary brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.secondary.700",
+            "category": "color.brand",
+            "reason": "Secondary brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.secondary.800",
+            "category": "color.brand",
+            "reason": "Secondary brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.brand.secondary.900",
+            "category": "color.brand",
+            "reason": "Secondary brand scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.neutral.50",
+            "category": "color.neutral",
+            "reason": "Neutral scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.neutral.100",
+            "category": "color.neutral",
+            "reason": "Neutral scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.neutral.200",
+            "category": "color.neutral",
+            "reason": "Neutral scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.neutral.300",
+            "category": "color.neutral",
+            "reason": "Neutral scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.neutral.500",
+            "category": "color.neutral",
+            "reason": "Neutral scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.neutral.600",
+            "category": "color.neutral",
+            "reason": "Neutral scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.neutral.700",
+            "category": "color.neutral",
+            "reason": "Neutral scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.neutral.800",
+            "category": "color.neutral",
+            "reason": "Neutral scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.neutral.900",
+            "category": "color.neutral",
+            "reason": "Neutral scale step missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.status.success.default",
+            "category": "color.status",
+            "reason": "Status sub-token missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.status.success.subtle",
+            "category": "color.status",
+            "reason": "Status sub-token missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.status.success.text",
+            "category": "color.status",
+            "reason": "Status sub-token missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.status.success.border",
+            "category": "color.status",
+            "reason": "Status sub-token missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.status.warning.default",
+            "category": "color.status",
+            "reason": "Warning category entirely absent",
+            "severity": "high"
+        },
+        {
+            "token": "color.status.warning.subtle",
+            "category": "color.status",
+            "reason": "Warning category entirely absent",
+            "severity": "high"
+        },
+        {
+            "token": "color.status.warning.text",
+            "category": "color.status",
+            "reason": "Warning category entirely absent",
+            "severity": "high"
+        },
+        {
+            "token": "color.status.warning.border",
+            "category": "color.status",
+            "reason": "Warning category entirely absent",
+            "severity": "high"
+        },
+        {
+            "token": "color.status.danger.default",
+            "category": "color.status",
+            "reason": "Status sub-token missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.status.danger.subtle",
+            "category": "color.status",
+            "reason": "Status sub-token missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.status.danger.text",
+            "category": "color.status",
+            "reason": "Status sub-token missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.status.danger.border",
+            "category": "color.status",
+            "reason": "Status sub-token missing",
+            "severity": "high"
+        },
+        {
+            "token": "color.status.info.default",
+            "category": "color.status",
+            "reason": "Status sub-token missing",
+            "severity": "medium"
+        },
+        {
+            "token": "color.status.info.subtle",
+            "category": "color.status",
+            "reason": "Status sub-token missing",
+            "severity": "medium"
+        },
+        {
+            "token": "color.status.info.text",
+            "category": "color.status",
+            "reason": "Status sub-token missing",
+            "severity": "medium"
+        },
+        {
+            "token": "color.status.info.border",
+            "category": "color.status",
+            "reason": "Status sub-token missing",
+            "severity": "medium"
+        },
+        {
+            "token": "color.text.disabled",
+            "category": "color.text",
+            "reason": "Functional alias missing",
+            "severity": "critical"
+        },
+        {
+            "token": "color.text.on-brand",
+            "category": "color.text",
+            "reason": "Functional alias missing",
+            "severity": "critical"
+        },
+        {
+            "token": "color.background.secondary",
+            "category": "color.background",
+            "reason": "Functional alias missing",
+            "severity": "critical"
+        },
+        {
+            "token": "color.background.disabled",
+            "category": "color.background",
+            "reason": "Functional alias missing",
+            "severity": "critical"
+        },
+        {
+            "token": "color.border.strong",
+            "category": "color.border",
+            "reason": "Functional alias missing",
+            "severity": "critical"
+        },
+        {
+            "token": "color.border.focus",
+            "category": "color.border",
+            "reason": "Functional alias missing",
+            "severity": "critical"
+        },
+        {
+            "token": "color.border.disabled",
+            "category": "color.border",
+            "reason": "Functional alias missing",
+            "severity": "critical"
+        },
+        {
+            "token": "color.icon.secondary",
+            "category": "color.icon",
+            "reason": "Icon alias missing",
+            "severity": "critical"
+        },
+        {
+            "token": "color.icon.disabled",
+            "category": "color.icon",
+            "reason": "Icon alias missing",
+            "severity": "critical"
+        },
+        {
+            "token": "color.icon.on-brand",
+            "category": "color.icon",
+            "reason": "Icon alias missing",
+            "severity": "critical"
+        },
+        {
+            "token": "spacing.0",
+            "category": "spacing",
+            "reason": "Spacing category entirely absent",
+            "severity": "critical"
+        },
+        {
+            "token": "spacing.1",
+            "category": "spacing",
+            "reason": "Spacing category entirely absent",
+            "severity": "critical"
+        },
+        {
+            "token": "spacing.2",
+            "category": "spacing",
+            "reason": "Spacing category entirely absent",
+            "severity": "critical"
+        },
+        {
+            "token": "spacing.3",
+            "category": "spacing",
+            "reason": "Spacing category entirely absent",
+            "severity": "critical"
+        },
+        {
+            "token": "spacing.4",
+            "category": "spacing",
+            "reason": "Spacing category entirely absent",
+            "severity": "critical"
+        },
+        {
+            "token": "spacing.5",
+            "category": "spacing",
+            "reason": "Spacing category entirely absent",
+            "severity": "critical"
+        },
+        {
+            "token": "spacing.6",
+            "category": "spacing",
+            "reason": "Spacing category entirely absent",
+            "severity": "critical"
+        },
+        {
+            "token": "spacing.7",
+            "category": "spacing",
+            "reason": "Spacing category entirely absent",
+            "severity": "critical"
+        },
+        {
+            "token": "spacing.8",
+            "category": "spacing",
+            "reason": "Spacing category entirely absent",
+            "severity": "critical"
+        },
+        {
+            "token": "spacing.9",
+            "category": "spacing",
+            "reason": "Spacing category entirely absent",
+            "severity": "critical"
+        },
+        {
+            "token": "spacing.10",
+            "category": "spacing",
+            "reason": "Spacing category entirely absent",
+            "severity": "critical"
+        },
+        {
+            "token": "spacing.11",
+            "category": "spacing",
+            "reason": "Spacing category entirely absent",
+            "severity": "critical"
+        },
+        {
+            "token": "spacing.12",
+            "category": "spacing",
+            "reason": "Spacing category entirely absent",
+            "severity": "critical"
+        },
+        {
+            "token": "font.family.sans",
+            "category": "typography",
+            "reason": "No canonical font family defined",
+            "severity": "high"
+        },
+        {
+            "token": "font.family.display",
+            "category": "typography",
+            "reason": "Display font family not formalized",
+            "severity": "high"
+        },
+        {
+            "token": "font.family.ui",
+            "category": "typography",
+            "reason": "UI font family not formalized",
+            "severity": "high"
+        },
+        {
+            "token": "font.size.lg",
+            "category": "typography",
+            "reason": "Typography scale step missing",
+            "severity": "medium"
+        },
+        {
+            "token": "font.size.2xl",
+            "category": "typography",
+            "reason": "Typography scale step missing",
+            "severity": "medium"
+        },
+        {
+            "token": "font.size.4xl",
+            "category": "typography",
+            "reason": "Typography scale step missing",
+            "severity": "medium"
+        },
+        {
+            "token": "font.lineheight.tight",
+            "category": "typography",
+            "reason": "Line height token missing",
+            "severity": "medium"
+        },
+        {
+            "token": "font.tracking.tight",
+            "category": "typography",
+            "reason": "Letter spacing token missing",
+            "severity": "medium"
+        },
+        {
+            "token": "font.tracking.wide",
+            "category": "typography",
+            "reason": "Letter spacing token missing",
+            "severity": "medium"
+        },
+        {
+            "token": "radius.none",
+            "category": "radius",
+            "reason": "Radius category entirely absent",
+            "severity": "high"
+        },
+        {
+            "token": "radius.sm",
+            "category": "radius",
+            "reason": "Radius category entirely absent",
+            "severity": "high"
+        },
+        {
+            "token": "radius.md",
+            "category": "radius",
+            "reason": "Radius category entirely absent",
+            "severity": "high"
+        },
+        {
+            "token": "radius.lg",
+            "category": "radius",
+            "reason": "Radius category entirely absent",
+            "severity": "high"
+        },
+        {
+            "token": "radius.xl",
+            "category": "radius",
+            "reason": "Radius category entirely absent",
+            "severity": "high"
+        },
+        {
+            "token": "radius.2xl",
+            "category": "radius",
+            "reason": "Radius category entirely absent",
+            "severity": "high"
+        },
+        {
+            "token": "radius.full",
+            "category": "radius",
+            "reason": "Radius category entirely absent",
+            "severity": "high"
+        },
+        {
+            "token": "shadow.none",
+            "category": "shadow",
+            "severity": "medium",
+            "reason": "Shadow category entirely absent"
+        },
+        {
+            "token": "shadow.xs",
+            "category": "shadow",
+            "severity": "medium",
+            "reason": "Shadow category entirely absent"
+        },
+        {
+            "token": "shadow.sm",
+            "category": "shadow",
+            "severity": "medium",
+            "reason": "Shadow category entirely absent"
+        },
+        {
+            "token": "shadow.md",
+            "category": "shadow",
+            "severity": "medium",
+            "reason": "Shadow category entirely absent"
+        },
+        {
+            "token": "shadow.lg",
+            "category": "shadow",
+            "severity": "medium",
+            "reason": "Shadow category entirely absent"
+        },
+        {
+            "token": "shadow.xl",
+            "category": "shadow",
+            "severity": "medium",
+            "reason": "Shadow category entirely absent"
+        },
+        {
+            "token": "shadow.2xl",
+            "category": "shadow",
+            "severity": "medium",
+            "reason": "Shadow category entirely absent"
+        },
+        {
+            "token": "z.below",
+            "category": "z-index",
+            "severity": "medium",
+            "reason": "Z-index category entirely absent"
+        },
+        {
+            "token": "z.base",
+            "category": "z-index",
+            "severity": "medium",
+            "reason": "Z-index category entirely absent"
+        },
+        {
+            "token": "z.raised",
+            "category": "z-index",
+            "severity": "medium",
+            "reason": "Z-index category entirely absent"
+        },
+        {
+            "token": "z.dropdown",
+            "category": "z-index",
+            "severity": "medium",
+            "reason": "Z-index category entirely absent"
+        },
+        {
+            "token": "z.sticky",
+            "category": "z-index",
+            "severity": "medium",
+            "reason": "Z-index category entirely absent"
+        },
+        {
+            "token": "z.overlay",
+            "category": "z-index",
+            "severity": "medium",
+            "reason": "Z-index category entirely absent"
+        },
+        {
+            "token": "z.modal",
+            "category": "z-index",
+            "severity": "medium",
+            "reason": "Z-index category entirely absent"
+        },
+        {
+            "token": "z.toast",
+            "category": "z-index",
+            "severity": "medium",
+            "reason": "Z-index category entirely absent"
+        },
+        {
+            "token": "z.tooltip",
+            "category": "z-index",
+            "severity": "medium",
+            "reason": "Z-index category entirely absent"
+        },
+        {
+            "token": "motion.duration.instant",
+            "category": "motion",
+            "severity": "low",
+            "reason": "Motion category absent"
+        },
+        {
+            "token": "motion.duration.fast",
+            "category": "motion",
+            "severity": "low",
+            "reason": "Motion category absent"
+        },
+        {
+            "token": "motion.duration.normal",
+            "category": "motion",
+            "severity": "low",
+            "reason": "Motion category absent"
+        },
+        {
+            "token": "motion.duration.slow",
+            "category": "motion",
+            "severity": "low",
+            "reason": "Motion category absent"
+        },
+        {
+            "token": "motion.duration.slower",
+            "category": "motion",
+            "severity": "low",
+            "reason": "Motion category absent"
+        },
+        {
+            "token": "motion.easing.default",
+            "category": "motion",
+            "severity": "low",
+            "reason": "Motion category absent"
+        },
+        {
+            "token": "motion.easing.in",
+            "category": "motion",
+            "severity": "low",
+            "reason": "Motion category absent"
+        },
+        {
+            "token": "motion.easing.out",
+            "category": "motion",
+            "severity": "low",
+            "reason": "Motion category absent"
+        },
+        {
+            "token": "motion.easing.in-out",
+            "category": "motion",
+            "severity": "low",
+            "reason": "Motion category absent"
+        },
+        {
+            "token": "motion.easing.spring",
+            "category": "motion",
+            "severity": "low",
+            "reason": "Motion category absent"
+        }
+    ],
+    "contrast_violations": [
+        {
+            "token": "color.text.secondary",
+            "current_value": "#111d4a66",
+            "resolved_solid": "#888a99",
+            "contrast_on_white": "3.1:1",
+            "required": "4.5:1",
+            "status": "fail",
+            "recommended_value": "#6b6e80"
+        },
+        {
+            "token": "color.text.placeholder",
+            "current_value": "#111d4a33",
+            "resolved_solid": "#c4c6d0",
+            "contrast_on_white": "1.8:1",
+            "required": "4.5:1",
+            "status": "fail",
+            "recommended_value": "#767a8e"
+        },
+        {
+            "token": "color.status.success.default",
+            "current_value": "#4bce71",
+            "contrast_on_white": "2.8:1",
+            "required": "3:1 (UI)",
+            "status": "fail",
+            "recommended_value": "#2ea051"
+        },
+        {
+            "token": "color.status.danger.default",
+            "current_value": "#f3636f",
+            "contrast_on_white": "3.2:1",
+            "required": "4.5:1",
+            "status": "fail",
+            "recommended_value": "#c0202d"
+        },
+        {
+            "token": "Light Secondary",
+            "current_value": "#AEB3BE",
+            "contrast_on_white": "2.9:1",
+            "required": "4.5:1",
+            "status": "fail",
+            "recommended_value": "#6b6e7e"
+        }
+    ]
+}

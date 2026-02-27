@@ -1,2 +1,4 @@
 node_modules/
 .env
+# Figma Plugin
+figma-sync-plugin/

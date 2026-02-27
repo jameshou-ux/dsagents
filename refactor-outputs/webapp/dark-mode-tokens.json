@@ -1,0 +1,130 @@
+{
+    "color": {
+        "brand": {
+            "primary": {
+                "50": {
+                    "value": "#1c0a2e",
+                    "method": "Inverted from light mode 900"
+                },
+                "100": {
+                    "value": "#e8d5fc",
+                    "method": "Inverted from light mode 850"
+                },
+                "200": {
+                    "value": "#d0aaf8",
+                    "method": "Inverted from light mode 750"
+                },
+                "300": {
+                    "value": "#b87ff4",
+                    "method": "Inverted from light mode 650"
+                },
+                "400": {
+                    "value": "#9f55ec",
+                    "method": "Inverted from light mode 550"
+                },
+                "500": {
+                    "value": "#8034E3",
+                    "method": "Inverted from light mode 500"
+                },
+                "600": {
+                    "value": "#6828b8",
+                    "method": "Inverted from light mode 350"
+                },
+                "700": {
+                    "value": "#4e1e8a",
+                    "method": "Inverted from light mode 250"
+                },
+                "800": {
+                    "value": "#35145c",
+                    "method": "Inverted from light mode 150"
+                },
+                "900": {
+                    "value": "#f5eeff",
+                    "method": "Inverted from light mode 50"
+                }
+            },
+            "secondary": {
+                "50": {
+                    "value": "#001933",
+                    "method": "Inverted from light mode 900"
+                },
+                "100": {
+                    "value": "#bfddff",
+                    "method": "Inverted from light mode 850"
+                },
+                "200": {
+                    "value": "#80bbff",
+                    "method": "Inverted from light mode 750"
+                },
+                "300": {
+                    "value": "#4d9fff",
+                    "method": "Inverted from light mode 650"
+                },
+                "400": {
+                    "value": "#1a83ff",
+                    "method": "Inverted from light mode 550"
+                },
+                "500": {
+                    "value": "#007fff",
+                    "method": "Inverted from light mode 500"
+                },
+                "600": {
+                    "value": "#0065cc",
+                    "method": "Inverted from light mode 350"
+                },
+                "700": {
+                    "value": "#004c99",
+                    "method": "Inverted from light mode 250"
+                },
+                "800": {
+                    "value": "#003266",
+                    "method": "Inverted from light mode 150"
+                },
+                "900": {
+                    "value": "#e6f3ff",
+                    "method": "Inverted from light mode 50"
+                }
+            }
+        },
+        "neutral": {
+            "50": {},
+            "100": {},
+            "200": {},
+            "300": {},
+            "400": {},
+            "500": {},
+            "600": {},
+            "700": {},
+            "800": {},
+            "900": {}
+        },
+        "status": {
+            "success": {},
+            "warning": {},
+            "danger": {},
+            "info": {}
+        },
+        "text": {
+            "secondary": {},
+            "placeholder": {},
+            "disabled": {},
+            "inverse": {},
+            "on-brand": {}
+        },
+        "background": {
+            "secondary": {},
+            "disabled": {},
+            "overlay": {}
+        },
+        "border": {
+            "strong": {},
+            "focus": {},
+            "disabled": {}
+        },
+        "icon": {
+            "secondary": {},
+            "disabled": {},
+            "on-brand": {}
+        }
+    }
+}

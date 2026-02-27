@@ -1,0 +1,30 @@
+[
+    {
+        "component": "Button",
+        "missing_states": [
+            "focus",
+            "loading",
+            "error",
+            "skeleton"
+        ],
+        "recommended_action": "Add variant property 'state' with values: focus, loading, error, skeleton"
+    },
+    {
+        "component": "Input",
+        "missing_states": [
+            "focus",
+            "error",
+            "disabled"
+        ],
+        "recommended_action": "Add variant property 'state' with values: focus, error, disabled"
+    },
+    {
+        "component": "Card",
+        "missing_states": [
+            "hover",
+            "focus",
+            "skeleton"
+        ],
+        "recommended_action": "Add variant property 'state' with values: hover, focus, skeleton for clickable cards"
+    }
+]
