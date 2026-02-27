@@ -1,10 +1,8 @@
 {
-  "run_id": "20260227_131042",
-  "figma_url": "https://www.figma.com/design/q7hUdalzGcZEJIyCwYuASm/Webapp-design-system?node-id=321-9714",
+  "run_id": null,
+  "figma_url": null,
   "figma_mcp_variables": null,
   "figma_api_token_provided": false,
   "figma_api_base": "https://api.figma.com/v1",
-  "pipeline": [
-    "phase1_analysis"
-  ]
+  "pipeline": []
 }
