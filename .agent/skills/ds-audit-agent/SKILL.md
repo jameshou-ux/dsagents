@@ -396,11 +396,10 @@ Minimum value: 0. Round to nearest integer.
 
 # Report Output
 
-After completing the audit, always save the full structured report as a Markdown file using the following convention:
+After completing the audit, always save the full structured report, as well as any raw JSON metric data extracted, into a dynamically generated, timestamped directory named `audit_YYYYMMDD_HHMMSS` inside the `ds-audit-outputs/` folder (not `.agent/skills`).
 
-- **Save location**: `.agent/skills/ds-audit-agent/audit-reports/`
-- **File naming**: `[project-slug]-audit-YYYY-MM-DD.md`
-  - Example: `webapp-ds-audit-2026-02-25.md`
+- **Save location**: `/Users/jameshou/Desktop/DS revamp trial/ds-audit-outputs/audit_YYYYMMDD_HHMMSS/`
+- **File naming**: `audit-report.md` and `audit-report.json`
 - **Format**: The complete 8-section structure as defined in the Required Output Structure.
 - **Metadata**: Always include `figma_url` and `auditor: "ds-audit-agent v1"` in the Metadata block.
 

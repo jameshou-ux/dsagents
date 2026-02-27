@@ -45,7 +45,7 @@ semantic tokens in the existing set.
 
 ## Output
 
-You must generate:
+You must generate 4 files grouped into a dynamically generated, timestamped directory named `gap_YYYYMMDD_HHMMSS` inside the `token-gap-outputs/` folder:
 
 | File | Description |
 |---|---|

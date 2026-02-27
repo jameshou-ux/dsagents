@@ -47,7 +47,9 @@ You must read **all 6 audit dimension scores** and activate repair protocols for
 
 ## Output
 
-You must generate **all** of the following files:
+## Output
+
+You must generate all of the following files, grouped together into a dynamically generated, timestamped directory named `refactor_YYYYMMDD_HHMMSS` inside the `refactor-outputs/` folder:
 
 | File | Description |
 |---|---|

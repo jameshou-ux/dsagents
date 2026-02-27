@@ -1,10 +1,19 @@
 import json
 import os
+from datetime import datetime
 
-PROPOSED_TOKENS_PATH = "/Users/jameshou/Desktop/DS revamp trial/token-gap-outputs/proposed-tokens.json"
-OUT_FILE = "/Users/jameshou/Desktop/DS revamp trial/token-gap-outputs/token-gap-preview.html"
+# The preview generator should read the most recently generated proposed-tokens.json
+# For testing, we point it to the recently organized timestamp folder
+INPUT_JSON_PATH = "/Users/jameshou/Desktop/DS revamp trial/token-gap-outputs/gap_20260227_094500/proposed-tokens.json"
 
-with open(PROPOSED_TOKENS_PATH, "r") as f:
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+SESSION_DIR = f"gap_{timestamp}"
+OUT_DIR = f"/Users/jameshou/Desktop/DS revamp trial/token-gap-outputs/{SESSION_DIR}"
+OUTPUT_HTML_PATH = f"{OUT_DIR}/token-gap-preview.html"
+
+os.makedirs(OUT_DIR, exist_ok=True)
+
+with open(INPUT_JSON_PATH, "r") as f:
     proposed_data = json.load(f)
 
 tokens = proposed_data.get("tokens", {}).get("color", {})
@@ -483,7 +492,7 @@ html_content = f"""<!DOCTYPE html>
 </html>
 """
 
-with open(OUT_FILE, "w") as f:
+with open(OUTPUT_HTML_PATH, "w") as f:
     f.write(html_content)
 
-print(f"Token gap preview generated at: {OUT_FILE}")
+print(f"Token gap preview generated at: {OUTPUT_HTML_PATH}")

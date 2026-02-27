@@ -1,10 +1,14 @@
 import json
 import os
+from datetime import datetime
 
-INPUT_PATH = "/Users/jameshou/Desktop/DS revamp trial/refactor-outputs/webapp/figma-sync-tokens.json"
-DARK_MODE_PATH = "/Users/jameshou/Desktop/DS revamp trial/refactor-outputs/webapp/dark-mode-tokens.json"
+INPUT_PATH = "/Users/jameshou/Desktop/DS revamp trial/refactor-outputs/refactor_20260227_094500/figma-sync-tokens.json"
+DARK_MODE_PATH = "/Users/jameshou/Desktop/DS revamp trial/refactor-outputs/refactor_20260227_094500/dark-mode-tokens.json"
 
-OUT_DIR = "/Users/jameshou/Desktop/DS revamp trial/code-sync-outputs"
+# Generate timestamped output directory
+timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+SESSION_DIR = "code-sync"
+OUT_DIR = f"/Users/jameshou/Desktop/DS revamp trial/code-sync-outputs/{SESSION_DIR}_{timestamp}"
 
 os.makedirs(OUT_DIR, exist_ok=True)
 
